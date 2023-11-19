@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <!--Header start  -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </label>
+        <label class="logo">DesignX</label>
+        <ul class="nav_menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </nav>
+    <!--Header end  -->
+
+    <!-- Main start -->
+    <section class="main">
+        <div class="container">
+            <div class="heading">Registration</div>
+            <form action="/" method="get">
+                <div class="card_details">
+                    <div class="card_box">
+                        <span class="details">Name</span>
+                        <input id="name" type="text" placeholder="Enter your name" />
+                    </div>
+                    <div class="card_box">
+                        <span class="details">Surname</span>
+                        <input id="surname" type="text" placeholder="Enter your surname" />
+                    </div>
+                    <div class="card_box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your email" />
+                    </div>
+                    <div class="card_box">
+                        <span class="details">Phone Number</span>
+                        <input id="phone" type="phone" placeholder="Phone number" />
+                    </div>
+                    <div class="card_box">
+                        <span class="details">Password</span>
+                        <input id="psw" type="password" placeholder="Enter your password" />
+                    </div>
+                    <div class="card_box">
+                        <span class="details">Confirm passsword</span>
+                        <input id="conpsw" type="password" placeholder="Confirm password" />
+                    </div>
+                </div>
+                <div class="circal_form">
+                    <span class="circal_title">Gender</span>
+                    <div class="category">
+                        <input type="radio" name="gender" /> Male
+                        <input type="radio" name="gender" /> Female
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register" />
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Main end -->
+    <!-- Footer Start -->
+    <div class="footer">
+        <p class="text">Copyright ©<span>2023</span>. All rights reserved</p>
+    </div>
+    <!-- Footer end -->
+    <script defer src="./script.js"></script>
+</body>
+
+</html>
